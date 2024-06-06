@@ -1,10 +1,6 @@
 #!/usr/bin/python3
 # ztest.py
 
-concat = __import__('1-concat').concat
+element_length =  __import__('9-element_length').element_length
 
-str1 = "egg"
-str2 = "shell"
-
-print(concat(str1, str2) == "{}{}".format(str1, str2))
-print(concat.__annotations__)
+print(element_length.__annotations__)
