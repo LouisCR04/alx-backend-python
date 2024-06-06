@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 git add .
 echo "Enter Commit message:"
 read commitm
