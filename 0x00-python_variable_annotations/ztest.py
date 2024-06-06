@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 # ztest.py
 
-element_length =  __import__('9-element_length').element_length
+#!/usr/bin/env python3
 
-print(element_length.__annotations__)
+zoom_array =  __import__('102-type_checking').zoom_array
+
+print(zoom_array.__annotations__)
