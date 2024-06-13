@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # 2-measure_runtime.py
+"""Parallel comprehensions"""
 
 from asyncio import gather
 from time import time
